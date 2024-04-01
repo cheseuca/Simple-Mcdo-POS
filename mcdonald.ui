@@ -61,7 +61,7 @@ color:rgb(255, 199, 44);
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="foods.qrc">:/logo/sale/McDonald's_Golden_Arches.svg.png</pixmap>
+     <pixmap resource="foods.qrc">:/logo/sale/McDonalds_Golden_Arches.svg.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>

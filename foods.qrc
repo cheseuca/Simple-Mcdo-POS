@@ -12,6 +12,6 @@
         <file>sale/softdrink.jpeg</file>
     </qresource>
     <qresource prefix="/logo">
-        <file>sale/McDonald's_Golden_Arches.svg.png</file>
+        <file>sale/McDonalds_Golden_Arches.svg.png</file>
     </qresource>
 </RCC>

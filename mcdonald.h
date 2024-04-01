@@ -3,12 +3,13 @@
 #define MCDONALD_H
 
 #include <QMainWindow>
-#include <QtSql>
 #include <QSqlDatabase>
-
+#include <QtSql>
 
 QT_BEGIN_NAMESPACE
-namespace Ui { class Mcdonald; }
+namespace Ui {
+class Mcdonald;
+}
 QT_END_NAMESPACE
 
 class Mcdonald : public QMainWindow
@@ -21,7 +22,6 @@ public:
     ~Mcdonald();
     double price;
     double getProductSubtotal(const QString &productName, int quantity);
-
 
 private slots:
     void on_bigmac_clicked();
@@ -50,12 +50,11 @@ private slots:
 
     void on_pay_clicked();
 
-
 private:
     Ui::Mcdonald *ui;
 
     int bigmacqty = 0;
-    int qpounderqty= 0;
+    int qpounderqty = 0;
     int dpounderqty = 0;
     int esausageqty = 0;
     int cburgerqty = 0;
@@ -67,9 +66,8 @@ private:
 
     double total = 0.0;
     double subtotal = 0.0;
-    double tax= 0.12;
+    double tax = 0.12;
     double discount = 0.0;
-
 };
 
 #endif // MCDONALD_H
