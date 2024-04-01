@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/menu">
+        <file>sale/BigMac.jpeg</file>
+        <file>sale/Cheeseburger.jpeg</file>
+        <file>sale/CheesyEggdesal.jpeg</file>
+        <file>sale/DoublePounder.jpg</file>
+        <file>sale/Fries.jpeg</file>
+        <file>sale/HotFudgeSundae.jpeg</file>
+        <file>sale/Pancakes.jpeg</file>
+        <file>sale/QuarterPounder.jpeg</file>
+        <file>sale/SausageMcMuffinWithEgg.jpeg</file>
+        <file>sale/softdrink.jpeg</file>
+    </qresource>
+    <qresource prefix="/logo">
+        <file>sale/McDonald's_Golden_Arches.svg.png</file>
+    </qresource>
+</RCC>
